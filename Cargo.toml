@@ -1,0 +1,13 @@
+[package]
+name        = "cortex"
+version     = "0.1.0"
+edition.workspace     = true
+authors.workspace     = true
+license     = "AGPL-3.0"
+repository  = "https://github.com/RocinRykor/cortex"
+
+[lib]
+name = "cortex"
+path = "src/lib.rs"
+
+[dependencies]
