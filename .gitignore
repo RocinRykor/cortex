@@ -1,0 +1,19 @@
+# Rust
+target/
+Cargo.lock
+
+# JetBrains
+.idea/
+
+# System
+.DS_Store
+
+# Secrets
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Environment
+.env
