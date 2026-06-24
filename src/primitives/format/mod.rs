@@ -1,3 +1,6 @@
+pub mod files;
+pub use files::*;
+
 #[derive(Debug)]
 pub enum Format {
     Unknown,
@@ -7,12 +10,7 @@ pub enum Format {
     Lzma,
 }
 
-pub struct File {
-    pub title: String,
-    pub extension: String,
-    pub data: Vec<u8>,
-    pub format: Format,
-}
+
 
 impl Format {
     pub fn valid_extensions(&self) -> &'static [&'static str] {
