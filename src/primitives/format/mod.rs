@@ -10,8 +10,6 @@ pub enum Format {
     Lzma,
 }
 
-
-
 impl Format {
     pub fn valid_extensions(&self) -> &'static [&'static str] {
         match self {

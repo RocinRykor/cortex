@@ -3,4 +3,3 @@ pub struct BaseFile {
     pub extension: String,
     pub data: Vec<u8>,
 }
-
