@@ -1,6 +1,6 @@
-use crate::primitives::files::base_file::BaseFile;
 use serde::de::DeserializeOwned;
 use serde_json::Value;
+use crate::primitives::files::base_file::BaseFile;
 
 pub struct JsonFile {
     pub base: BaseFile,

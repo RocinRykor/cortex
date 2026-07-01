@@ -1,6 +1,7 @@
 use crate::primitives::Format;
-use colored::Colorize;
+// use colored::Colorize;
 use std::fmt;
+use colored::Colorize;
 
 pub enum CephalonError {
     PathNotFound {
